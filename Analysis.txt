@@ -1,0 +1,14 @@
+TASK 0:
+Time complexity is O(1) because there are only operations of accessing list elements by index and one len() function. All of these have O(1) time complexity.
+
+TASK 1:
+Time complexity is O(n^2) because for each line, set insertion is performed which has O(n) time complexity (in case all elements in the underlying hash map collide).
+
+TASK 2:
+Time complexity is O(n^2) because for each line, a retrieval from dictionary is performed which has O(n) time complexity. Other operations are O(1).
+
+TASK 3:
+Time complexity is O(n^2) because for each line, set insertion is performed which has O(n) time complexity. Other operations in the loop are O(1) and sorted() function after the loop has O(n log n) complexity which is less than O(n^2).
+
+TASK 4:
+Time complexity is O(n^2) because for each line, set insertion is performend which has O(n) time complexity. The sorting and set difference have O(n log n) and O(n) respectively, which are less than O(n^2).
